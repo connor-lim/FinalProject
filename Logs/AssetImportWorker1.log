@@ -1,0 +1,1716 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32671 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Unity/Final Project/FinalProject2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62752
+Successfully changed project path to: E:/Unity/Final Project/FinalProject2
+E:/Unity/Final Project/FinalProject2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28408] Host "[IP] 192.168.1.176 [Port] 0 [Flags] 2 [Guid] 1501518746 [EditorId] 1501518746 [Version] 1048832 [Id] WindowsEditor(7,RenesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28408] Host "[IP] 192.168.1.176 [Port] 0 [Flags] 2 [Guid] 1501518746 [EditorId] 1501518746 [Version] 1048832 [Id] WindowsEditor(7,RenesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 7.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Final Project/FinalProject2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   NVIDIA
+    VRAM:     12093 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003749 seconds.
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 643ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.716 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (1.9 MB). Loaded Objects now: 4333.
+Memory consumption went from 184.1 MB to 182.3 MB.
+Total: 19.097000 ms (FindLiveObjects: 0.717300 ms CreateObjectMapping: 0.118900 ms MarkObjects: 17.505900 ms  DeleteObjects: 0.750500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22562.999859 seconds.
+  path: Assets/Complete Assets/Environment.prefab
+  artifactKey: Guid(34b545fee33aa1c4294b37b7adb59ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Complete Assets/Environment.prefab using Guid(34b545fee33aa1c4294b37b7adb59ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5be9d582684123ba8fa8756316c3330a') in 0.201895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Scripts/PlayerStats.cs
+  artifactKey: Guid(70471523962808c4e94805f946b21d2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PlayerStats.cs using Guid(70471523962808c4e94805f946b21d2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc94703a171d9379760108ee781883cc') in 0.005857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/RangeAIController.cs
+  artifactKey: Guid(e8e08dbb51775944eb9c08c396835593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/RangeAIController.cs using Guid(e8e08dbb51775944eb9c08c396835593) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a681ce8c84b7f4be75762187f20924e') in 0.004408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/GamePrefabs/OldChest (2).prefab
+  artifactKey: Guid(321289709e1fcba48aa04f79a1f7bc08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GamePrefabs/OldChest (2).prefab using Guid(321289709e1fcba48aa04f79a1f7bc08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb3a547cf222b9b330a09ded2655ed89') in 0.055353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animations/BruteAttack.mask
+  artifactKey: Guid(f1e0afc53ea36234db52d8eec159d0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/BruteAttack.mask using Guid(f1e0afc53ea36234db52d8eec159d0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60140f350cf5b0bc1de768229824b400') in 0.005052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GamePrefabs/Spawners.prefab
+  artifactKey: Guid(af5e8dd83a5c2d94c96cc3bf27442547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GamePrefabs/Spawners.prefab using Guid(af5e8dd83a5c2d94c96cc3bf27442547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6463200f0704b182218cd6d5b257364') in 0.042080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 515
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GamePrefabs/SkyBoxManager.prefab
+  artifactKey: Guid(c12cd90f4b4e44143b6e7157e8e33fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GamePrefabs/SkyBoxManager.prefab using Guid(c12cd90f4b4e44143b6e7157e8e33fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fdc58d09767b37fd665433dea98d031') in 0.008259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Complete Assets/Ninja.prefab
+  artifactKey: Guid(b791b35a0e1eafb43abcae218784d9f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Complete Assets/Ninja.prefab using Guid(b791b35a0e1eafb43abcae218784d9f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5f421614ab4a6579a66740031f02c92') in 0.049712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 446
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Low-Poly Chest/Materials/chest Metal.mat
+  artifactKey: Guid(64ab9f3769b4af745a651eea04a9e34c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Low-Poly Chest/Materials/chest Metal.mat using Guid(64ab9f3769b4af745a651eea04a9e34c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5f16f56f46ef74ea3499fbda85687e1') in 0.027714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Low-Poly Chest/Materials/Stone chest.mat
+  artifactKey: Guid(2b11cfd6e9fa4cc458bf56d61e1f9a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Low-Poly Chest/Materials/Stone chest.mat using Guid(2b11cfd6e9fa4cc458bf56d61e1f9a68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd95fb25d5c06816ea7122b3049bc2fe') in 0.007196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Low-Poly Chest/Prefabs/Old Chest.prefab
+  artifactKey: Guid(a40d7854b2bdd6047966a327dc7d335f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Low-Poly Chest/Prefabs/Old Chest.prefab using Guid(a40d7854b2bdd6047966a327dc7d335f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f5b6389e2aa42c0d651c1396b4b0e29') in 0.004429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Animations/ThirdPersonJump.mask
+  artifactKey: Guid(9751b521ffa24df498205b599d996113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ThirdPersonJump.mask using Guid(9751b521ffa24df498205b599d996113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1f7e28b39b72ec279ab773e91a438f8') in 0.003397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GamePrefabs/OldChest.prefab
+  artifactKey: Guid(77de1b2b9733a1e41aca2eb827dec774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GamePrefabs/OldChest.prefab using Guid(77de1b2b9733a1e41aca2eb827dec774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ebb5b966647baa6ddfc5cf6858b71b6') in 0.024194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/CollisionDoor.cs
+  artifactKey: Guid(2f923736997ab6d4886361f7e553c382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CollisionDoor.cs using Guid(2f923736997ab6d4886361f7e553c382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfbeca866301310b2e175d0dd130dac3') in 0.003336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GamePrefabs/OldChest (13).prefab
+  artifactKey: Guid(03af848cc30191040b4d67354ff3acd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GamePrefabs/OldChest (13).prefab using Guid(03af848cc30191040b4d67354ff3acd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be16ca43146c1f4d34bdad3686a1e298') in 0.018931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Complete Assets/EnemySpawner 1.prefab
+  artifactKey: Guid(e82b9d13780d8094fafa62cf9e602172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Complete Assets/EnemySpawner 1.prefab using Guid(e82b9d13780d8094fafa62cf9e602172) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40a8244644f524ce2ed46493b35af1ec') in 0.038963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 477
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Complete Assets/Xiong.prefab
+  artifactKey: Guid(60cd475bfc8e2cb458b67c91765cbd21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Complete Assets/Xiong.prefab using Guid(60cd475bfc8e2cb458b67c91765cbd21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13551a113b2c332507c603bea4d7478e') in 0.034318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 185
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JapaneseDojo/Fbx/Bld_Dojo_Roof_col.fbx
+  artifactKey: Guid(bcd8727645f98ba46bd95022d7c2cd63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Bld_Dojo_Roof_col.fbx using Guid(bcd8727645f98ba46bd95022d7c2cd63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29d954cbc584fc76408a220067afbe32') in 0.031841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animations/NormalEnemy.controller
+  artifactKey: Guid(39058dbb6cb9f3643971bb4031123edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/NormalEnemy.controller using Guid(39058dbb6cb9f3643971bb4031123edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '234357ef1cc5823d3798bbc97742748c') in 0.005192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(9e153cf3737df1e49be1ce73fe95e0a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ThirdPersonController.cs using Guid(9e153cf3737df1e49be1ce73fe95e0a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d31ce2e2b35b8a4613c54d99fc7d8a3') in 0.004678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Characters/Soft Ninja/Showcase.unity
+  artifactKey: Guid(3c7d2c7bb1b00a2468a0e69171107a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Soft Ninja/Showcase.unity using Guid(3c7d2c7bb1b00a2468a0e69171107a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1387c5850c70383ed4042aa24ac497ca') in 0.005151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/lose.png
+  artifactKey: Guid(fd12eae4a65e2784d9fcd5c1d2072d3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/lose.png using Guid(fd12eae4a65e2784d9fcd5c1d2072d3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5563bf6ac087e9b774c956e42bb405ca') in 0.044374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/CollisionCharacter.cs
+  artifactKey: Guid(5ab45285be6cd2a4cb5739c4950e32a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CollisionCharacter.cs using Guid(5ab45285be6cd2a4cb5739c4950e32a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96716edf00e9ceaf67a20e8f9c02d549') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GamePrefabs/Buildings (2).prefab
+  artifactKey: Guid(f4915fe4cf04cc247a902faf965be88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GamePrefabs/Buildings (2).prefab using Guid(f4915fe4cf04cc247a902faf965be88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c86396afbda356f0d149ca8b363bfc4c') in 0.012468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Complete Assets/Dashi.prefab
+  artifactKey: Guid(0d564ff7f248353428301391924e0646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Complete Assets/Dashi.prefab using Guid(0d564ff7f248353428301391924e0646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae3080acbf588c6f1d9d974f4bcd9d4c') in 0.027262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 0.767523 seconds.
+  path: Assets/JapaneseDojo/Fbx/Bld_Dojo_Roof_low.fbx
+  artifactKey: Guid(54aeeba0e58a9d54282187a411233281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Bld_Dojo_Roof_low.fbx using Guid(54aeeba0e58a9d54282187a411233281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60da0f5b8b1338b98e2d40ac0ccbaa26') in 0.011975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Materials/M_screen_drink.mat
+  artifactKey: Guid(9692bb0af3407394f94a57f2e2b09424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_screen_drink.mat using Guid(9692bb0af3407394f94a57f2e2b09424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ed41b2c2e9708de528047d95792f8fb') in 0.012328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JapaneseDojo/Fbx/Bld_Dojo_Wall_Window_Paper.fbx
+  artifactKey: Guid(6f606a950346fab478e9c795f0ee205a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Bld_Dojo_Wall_Window_Paper.fbx using Guid(6f606a950346fab478e9c795f0ee205a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '902b61973d83346ffdad433e74bc46d2') in 0.018885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Materials/M_konbini_textures.mat
+  artifactKey: Guid(a9ebab774440e674aab80fbfdb9bcd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_konbini_textures.mat using Guid(a9ebab774440e674aab80fbfdb9bcd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e120df886649c9ff759868a763bfc16') in 0.005769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/JapaneseDojo/Fbx/Prop_Dojo_Frame_G.fbx
+  artifactKey: Guid(90dd8845a022e204f931f38398919f98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Prop_Dojo_Frame_G.fbx using Guid(90dd8845a022e204f931f38398919f98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea256d8c31684de3814d27f7f180a2fc') in 0.011858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLY Japan/Materials/M_cars 1.mat
+  artifactKey: Guid(72ff613f681f4eb45a9746e49f04f950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_cars 1.mat using Guid(72ff613f681f4eb45a9746e49f04f950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb3ab302ef36ebae3fa37e8b038aa577') in 0.028394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Materials/M_street_detail_30zone 1.mat
+  artifactKey: Guid(f9d53158a6da19242a74b9d16de44a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_street_detail_30zone 1.mat using Guid(f9d53158a6da19242a74b9d16de44a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6456c3bec69a7bffd034430fe2388583') in 0.016035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Materials/M_skybox 1.mat
+  artifactKey: Guid(b3c72af3034f1a7469ce4b59610e64b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_skybox 1.mat using Guid(b3c72af3034f1a7469ce4b59610e64b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69a04074738043d03029dc25cb228f83') in 0.008423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLY Japan/Materials/M_screen_karaoke.mat
+  artifactKey: Guid(1a4ba97ee842c484e84b7d9adc9f096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_screen_karaoke.mat using Guid(1a4ba97ee842c484e84b7d9adc9f096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd233e4255822866a9698190c9e5c956') in 0.008966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/JapaneseDojo/Fbx/Prop_Dojo_Frame_E.fbx
+  artifactKey: Guid(9d2ad79a2b5620a4483699bb181aabe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Prop_Dojo_Frame_E.fbx using Guid(9d2ad79a2b5620a4483699bb181aabe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf415b88944299be1c4f91f1e616f774') in 0.011771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Materials/M_trafficsigns 1.mat
+  artifactKey: Guid(25f834c7933d5f347a839dbe30b02b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_trafficsigns 1.mat using Guid(25f834c7933d5f347a839dbe30b02b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13c55d2e9c7c90c67ac28bf8603f4bd3') in 0.008484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JapaneseDojo/Fbx/Prop_Dojo_WoodSwordHolder_C.fbx
+  artifactKey: Guid(490b81e5b33d3cd4591bcdd5512823af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Prop_Dojo_WoodSwordHolder_C.fbx using Guid(490b81e5b33d3cd4591bcdd5512823af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e3943b37606bd361eb0b4e33fa247b1') in 0.019737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Materials/M_leaves 2.mat
+  artifactKey: Guid(58475ae7bdfc59843bb78dd97a09c9a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_leaves 2.mat using Guid(58475ae7bdfc59843bb78dd97a09c9a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '200a87226b72a4e688ec6141147d4d55') in 0.007025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/JapaneseDojo/Fbx/Prop_Dojo_WoodSwordHolder_B.fbx
+  artifactKey: Guid(bedaa360a02df1142b0f950210472e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Prop_Dojo_WoodSwordHolder_B.fbx using Guid(bedaa360a02df1142b0f950210472e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85d167606ee65177d0c45ad0a5ed3fea') in 0.012970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JapaneseDojo/Fbx/Prop_Dojo_HangingScroll_E.fbx
+  artifactKey: Guid(315947aa2573cc0489d3d39ffeae4846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Fbx/Prop_Dojo_HangingScroll_E.fbx using Guid(315947aa2573cc0489d3d39ffeae4846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fb4c9ffb6dd44550b4e8895bb40f479') in 0.012180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Materials/M_cars 2.mat
+  artifactKey: Guid(7c62bed10a75bf54ab8a2ba31a9004ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/M_cars 2.mat using Guid(7c62bed10a75bf54ab8a2ba31a9004ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4667c9f8e305fab881f6d0fc6cfec2f0') in 0.011288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.525059 seconds.
+  path: Assets/POLY Japan/Meshes/SM_apartment_02.fbx
+  artifactKey: Guid(86481e487b439ca4c82363d300804597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_apartment_02.fbx using Guid(86481e487b439ca4c82363d300804597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a8d2189ec8aa22ca735cc60edd02e48') in 0.021754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLY Japan/Meshes/SM_sign_neon_03.fbx
+  artifactKey: Guid(23f1de3ed9663ac4ba947df3d1eaf44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_sign_neon_03.fbx using Guid(23f1de3ed9663ac4ba947df3d1eaf44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58d54eeb459ede5f46a369baeb8f8795') in 0.017428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLY Japan/Meshes/SM_tunnel.fbx
+  artifactKey: Guid(539335a516b5f964886c4a2677c2cbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_tunnel.fbx using Guid(539335a516b5f964886c4a2677c2cbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a0b2e695b8a1065af990b1aa792766e') in 0.011432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Level 1/NavMesh-Environment 2.asset
+  artifactKey: Guid(4c7b4d6543baedc44b8a90b6b312b60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level 1/NavMesh-Environment 2.asset using Guid(4c7b4d6543baedc44b8a90b6b312b60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5de5438c44484ad1518b9fc35d4231aa') in 0.006867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/POLY Japan/Meshes/SM_sign_shop_02.fbx
+  artifactKey: Guid(8e9a2548ad51cd5409cc90e1617119ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_sign_shop_02.fbx using Guid(8e9a2548ad51cd5409cc90e1617119ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86f254adc4c9a31963c3be4ed49d7a92') in 0.011362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Meshes/SM_shop_03.fbx
+  artifactKey: Guid(7d3ccfc011a51ed4e8d9fbd28153a774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_shop_03.fbx using Guid(7d3ccfc011a51ed4e8d9fbd28153a774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '784cc4f6a4a6734fbed605cf6fece5cf') in 0.017167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLY Japan/Meshes/SM_walls_suburbs_01.fbx
+  artifactKey: Guid(bb2396da2199a784c8fcce9597b66ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_walls_suburbs_01.fbx using Guid(bb2396da2199a784c8fcce9597b66ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2f0200a7d8fd3f82ed3f5077dddbdff') in 0.019959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLY Japan/Meshes/SM_fence_03.fbx
+  artifactKey: Guid(4ff985d43e48133458fecced723eded6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_fence_03.fbx using Guid(4ff985d43e48133458fecced723eded6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b270f52969ebff959154db72c877e75') in 0.011106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sounds/Nature - Essentials/Ambiance_Cicadas_Loop_Stereo.wav
+  artifactKey: Guid(2cbeb5b18dd7a4940801811781c0e0d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/Nature - Essentials/Ambiance_Cicadas_Loop_Stereo.wav using Guid(2cbeb5b18dd7a4940801811781c0e0d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab936f8f80f94ec7295e84ec726013d0') in 0.141703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sounds/Nature - Essentials/Ambiance_Cave_Drips_Loop_Stereo.wav
+  artifactKey: Guid(d67b2d45ec91a914ca57d7b62d7f2a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/Nature - Essentials/Ambiance_Cave_Drips_Loop_Stereo.wav using Guid(d67b2d45ec91a914ca57d7b62d7f2a9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69bdeea7e34a598f82f4527c66c5279c') in 0.131866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLY Japan/Meshes/SM_sign_01.fbx
+  artifactKey: Guid(14eb60504299cdc43b95425ef66fe191) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_sign_01.fbx using Guid(14eb60504299cdc43b95425ef66fe191) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e61920b4a31d74f5721ebf393f04bbb8') in 0.011091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLY Japan/Meshes/SM_sign_neon_01.fbx
+  artifactKey: Guid(a685819dbe3cea845a1f5ddaf0a2cea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_sign_neon_01.fbx using Guid(a685819dbe3cea845a1f5ddaf0a2cea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c03369989ffb24ea9bccd6f55152f81e') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Meshes/SM_sign_shop_04.fbx
+  artifactKey: Guid(c9dd21206cf76f44598dd638fbb6655a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_sign_shop_04.fbx using Guid(c9dd21206cf76f44598dd638fbb6655a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '088e7d14bb0583521937bbb8ebaf94ab') in 0.014440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Meshes/SM_sign_shop_06.fbx
+  artifactKey: Guid(654e30600ed919e47bc0a71e32176118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_sign_shop_06.fbx using Guid(654e30600ed919e47bc0a71e32176118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0fbe318ba882d2d659fb4225741d9f5') in 0.019371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Meshes/SM_neonsign_karaoke.fbx
+  artifactKey: Guid(b71fdd49127dc6446834629c5cccb4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_neonsign_karaoke.fbx using Guid(b71fdd49127dc6446834629c5cccb4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7416237dfc5f4feef41c585e7cd000c') in 0.016248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Meshes/SM_screen_09.fbx
+  artifactKey: Guid(2f6a8ff330c29af4b9b8b6c93000b3d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_screen_09.fbx using Guid(2f6a8ff330c29af4b9b8b6c93000b3d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03bf4ccd8820c2d39651c27c1e3d8883') in 0.013449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Meshes/SM_electricity_pole_02.fbx
+  artifactKey: Guid(63ef53ed623f55748995bb3efad13f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_electricity_pole_02.fbx using Guid(63ef53ed623f55748995bb3efad13f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '259b946c3f16a40ae555353ea083a416') in 0.016218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Meshes/SM_house_01.fbx
+  artifactKey: Guid(22ea20068feb3114f8815b4298f3d740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_house_01.fbx using Guid(22ea20068feb3114f8815b4298f3d740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0b325ec924ed6b9d5598e8ddfac1383') in 0.022188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLY Japan/Meshes/SM_trafficlights_01.fbx
+  artifactKey: Guid(6810c1502ca9ca9419ab76c6ce3d5eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_trafficlights_01.fbx using Guid(6810c1502ca9ca9419ab76c6ce3d5eba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f56e5480b9e4fb67fa7b641afd43fbbb') in 0.013813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Meshes/SM_building_tall_03.fbx
+  artifactKey: Guid(cc0227df596ea294fbf73d9ccd9c3ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_building_tall_03.fbx using Guid(cc0227df596ea294fbf73d9ccd9c3ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08d4e49fb8f2a3660eb70399cd1830f9') in 0.023317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Meshes/SM_trafficlights_pedestrian.fbx
+  artifactKey: Guid(dec82a894d12ae54e92258ecd3c943b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_trafficlights_pedestrian.fbx using Guid(dec82a894d12ae54e92258ecd3c943b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f17a0bd7a5a876dc09f776eab8a7591') in 0.013593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Meshes/SM_tvtower.fbx
+  artifactKey: Guid(20c00253b88d13543a829b090a760eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Meshes/SM_tvtower.fbx using Guid(20c00253b88d13543a829b090a760eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b45dc901db7160ad66366ad174d14477') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/Nature - Essentials/Ambiance_Stream_Calm_Loop_Stereo.wav
+  artifactKey: Guid(f65f946ad6131674cb9a2a10c5ea326f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/Nature - Essentials/Ambiance_Stream_Calm_Loop_Stereo.wav using Guid(f65f946ad6131674cb9a2a10c5ea326f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2075ec44974996d003d3b0bd760b47b') in 0.117216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.175163 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f20eb09b188783653beb41054c9a3c8') in 0.014860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_Frame_D.prefab
+  artifactKey: Guid(fe3424adc8fddc94eb60b09f62d25a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_Frame_D.prefab using Guid(fe3424adc8fddc94eb60b09f62d25a86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deb3043d9e90e65ce0ac7d5faef273e4') in 0.006783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '728135b05d28ba80d658abd6927a6bfc') in 0.012510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior FREE/InputSystem Support - Requires InputSystem Package.unitypackage
+  artifactKey: Guid(19df88194fc578646abbbc9b605f65f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior FREE/InputSystem Support - Requires InputSystem Package.unitypackage using Guid(19df88194fc578646abbbc9b605f65f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '036ac51f0a073c8902446dc6570acd48') in 0.002638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Wall.prefab
+  artifactKey: Guid(fa6aab558bde5c040b8f860e8d27a4ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Wall.prefab using Guid(fa6aab558bde5c040b8f860e8d27a4ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c753bcd42230f69905e74d65f02c724') in 0.006182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6eb1339332f11f64effea6a2fd9a98b3') in 0.006786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_poles_BaseMap.png
+  artifactKey: Guid(df1a6fc0fc640964d96d8a336a4e0a9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_poles_BaseMap.png using Guid(df1a6fc0fc640964d96d8a336a4e0a9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9663e1fa5941f00decb7d4e9f5c39389') in 0.012304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Wall_Window.prefab
+  artifactKey: Guid(d1880408d8aeae840a59a3c1530e4fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Wall_Window.prefab using Guid(d1880408d8aeae840a59a3c1530e4fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a2747b11b58bfa0606964afd8004b6bb') in 0.007637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld/Dojo_B.prefab
+  artifactKey: Guid(dc09782fd70273244944aad89b1aad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld/Dojo_B.prefab using Guid(dc09782fd70273244944aad89b1aad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2882b471cb27fe1590b7f4e509d21986') in 0.015224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 760
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_HangingScroll_D.prefab
+  artifactKey: Guid(d3fe4849861769946b6ba8ec12a0bfe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_HangingScroll_D.prefab using Guid(d3fe4849861769946b6ba8ec12a0bfe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '585f499379e32c0825b8d3d5674b4db7') in 0.005902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_car_Emissive.png
+  artifactKey: Guid(a1e1a8af5ea5d224ba26ccf2952056ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_car_Emissive.png using Guid(a1e1a8af5ea5d224ba26ccf2952056ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e8fa6314fd5d03af3b761c2fe8f4990') in 0.014623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '006667120be2e6fb4ec036c8bba2472d') in 0.007560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Floor_Tatami.prefab
+  artifactKey: Guid(5d4d48c9cca83e24a9dc100485959616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Floor_Tatami.prefab using Guid(5d4d48c9cca83e24a9dc100485959616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75bd6ca8c9e61a6bb03829db9304d785') in 0.007481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be4fa70bb4f5d9e864581f1990ff7ee5') in 0.004842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_HangingScroll_E.prefab
+  artifactKey: Guid(32a5f3fcdf7944f4bb5de26a2c1e49a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_HangingScroll_E.prefab using Guid(32a5f3fcdf7944f4bb5de26a2c1e49a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98298a1677950051940044e201342460') in 0.006333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd1878eb88ce03e2bf2674a2b53744a2') in 0.003607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld_DarkColor/Bld_Dojo_Roof_End_low_Dark.prefab
+  artifactKey: Guid(e2d4448fbd6fff9409e3bc2144356890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld_DarkColor/Bld_Dojo_Roof_End_low_Dark.prefab using Guid(e2d4448fbd6fff9409e3bc2144356890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4073b5c3810d5307969d8936fa64ddb') in 0.008529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Materials/Colors/M_bark 1.mat
+  artifactKey: Guid(966ffd2118a043a4cac33c691574ca37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Colors/M_bark 1.mat using Guid(966ffd2118a043a4cac33c691574ca37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cd3b516687a623d2db1de8714f81980') in 0.005096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/POLY Japan/Materials/Colors/M_emissive_light.mat
+  artifactKey: Guid(54f94758accc46049bdb822c1c661e5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Colors/M_emissive_light.mat using Guid(54f94758accc46049bdb822c1c661e5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6f0195e17da69ffacc5dd0e3d2e5310') in 0.003890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Roof.prefab
+  artifactKey: Guid(6e23c83742bd2dd4ea55d145aa452ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Roof.prefab using Guid(6e23c83742bd2dd4ea55d145aa452ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bb4562cc0d7d494fc4468a8b343aeb1') in 0.009378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_Frame_H.prefab
+  artifactKey: Guid(7e3ddfbc3e901f449ad4950da4cf3981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_Frame_H.prefab using Guid(7e3ddfbc3e901f449ad4950da4cf3981) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39a0a81527b35938ba0681ed87c77688') in 0.008956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior FREE/TagLayer Presets.preset
+  artifactKey: Guid(8a6ca0acd5e2d4847b477156dc8cf109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior FREE/TagLayer Presets.preset using Guid(8a6ca0acd5e2d4847b477156dc8cf109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e904d829655bda4ee21978b3d602d9c4') in 0.007873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLY Japan/Materials/Colors/M_box.mat
+  artifactKey: Guid(df2b13d5c89143a4e8be32a941548c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Colors/M_box.mat using Guid(df2b13d5c89143a4e8be32a941548c43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de67cf5d25ee79b72c096d3684757678') in 0.006077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Roof_End.prefab
+  artifactKey: Guid(5baf8285982fa69458b33e9566075c49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld/Bld_Dojo_Roof_End.prefab using Guid(5baf8285982fa69458b33e9566075c49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd8c71882d3867d0ee9e6c98784bdfa7e') in 0.007267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/POLY Japan/Materials/Colors/M_pink 1.mat
+  artifactKey: Guid(382ad7f7572125e4badcd84f7a88f959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Colors/M_pink 1.mat using Guid(382ad7f7572125e4badcd84f7a88f959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a724c3de8d47ef7b65b6ba8e77800280') in 0.007143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_Drum.prefab
+  artifactKey: Guid(979c70be6f2238f4aa7a6d372fe4d04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Prop/Prop_Dojo_Drum.prefab using Guid(979c70be6f2238f4aa7a6d372fe4d04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ae94da150c2be4ba24a968b69e6bab5') in 0.007765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/JapaneseDojo/Prefabs/Bld_DarkColor/Bld_Dojo_Wall_Center_Dark.prefab
+  artifactKey: Guid(0626e8aaca3fc7d4f85c5e998057c2c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JapaneseDojo/Prefabs/Bld_DarkColor/Bld_Dojo_Wall_Center_Dark.prefab using Guid(0626e8aaca3fc7d4f85c5e998057c2c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b517ef7880ea3a2bb161dbc2d4473d7') in 0.006228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.519593 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_screen_drink.png
+  artifactKey: Guid(f56b58148f292f047a34ec83e23830c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_screen_drink.png using Guid(f56b58148f292f047a34ec83e23830c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c5e7b65c471bc102df16ccfb27a930b') in 0.014333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_streetdetail_arrow_01.png
+  artifactKey: Guid(405da3c34f143674eb268554f580649a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_streetdetail_arrow_01.png using Guid(405da3c34f143674eb268554f580649a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5cc0d1aa334c504b32b1aca05487d47a') in 0.009869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_fusebox.prefab
+  artifactKey: Guid(7ca3eabab1e43714db3e35dfd86c06d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_fusebox.prefab using Guid(7ca3eabab1e43714db3e35dfd86c06d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be151b4232f654472c0cb1c4f49ffe23') in 0.010684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002897 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_lamp_street_03 (1).prefab
+  artifactKey: Guid(710faf1a98f891949b3ac43c1012cb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_lamp_street_03 (1).prefab using Guid(710faf1a98f891949b3ac43c1012cb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b4db3fbb196dd4725a8b630859366e5') in 0.007110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_lamp_street_01 (1).prefab
+  artifactKey: Guid(177781cc9fc06e341a0fb8383db0c5c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_lamp_street_01 (1).prefab using Guid(177781cc9fc06e341a0fb8383db0c5c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88deb10906c958f523846dc463f41ef5') in 0.007672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_flowers_01.prefab
+  artifactKey: Guid(f07e41e8d2f1e4a4b8e4ac44eff6714a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_flowers_01.prefab using Guid(f07e41e8d2f1e4a4b8e4ac44eff6714a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22f29090c1cbf2314c727ee6827be7d6') in 0.009357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_wall_02 (2).prefab
+  artifactKey: Guid(fa68cab8b5f7b8541a659f3eefabbb57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_wall_02 (2).prefab using Guid(fa68cab8b5f7b8541a659f3eefabbb57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6a93afbec22b5cd8b0307c47536d588') in 0.006096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_deliverybox_02 (1).prefab
+  artifactKey: Guid(9352661c95386f24b849c828fb57da67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_deliverybox_02 (1).prefab using Guid(9352661c95386f24b849c828fb57da67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3a4b6adf66f51ceda60ab15a0110fa4') in 0.011183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_pipes_01.prefab
+  artifactKey: Guid(a2753d5c0d53c3945bea721ca3fca1dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_pipes_01.prefab using Guid(a2753d5c0d53c3945bea721ca3fca1dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be31ea49ea81c270f5cf800a947502df') in 0.006260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLY Japan/Prefabs/Nature/SM_tree_02.prefab
+  artifactKey: Guid(b77999ea48390a4499cda9f09696952e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Nature/SM_tree_02.prefab using Guid(b77999ea48390a4499cda9f09696952e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc8a8a7f2da7bc44f399621fbcefbe88') in 0.010270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_neon_03 (1).prefab
+  artifactKey: Guid(9441eb4ac6dfae04eb7e82070374b961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_neon_03 (1).prefab using Guid(9441eb4ac6dfae04eb7e82070374b961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba759f839a300966e057d1411eb749a2') in 0.011484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_screen_01.prefab
+  artifactKey: Guid(115c1d06f899fe3458ae6deb9c90e6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_screen_01.prefab using Guid(115c1d06f899fe3458ae6deb9c90e6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4788ad2b384f3d86a639ddf8614ce0b') in 0.006721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_storefronts_MaskMap.png
+  artifactKey: Guid(42736f7d49927f14c9fad634c4bc97f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_storefronts_MaskMap.png using Guid(42736f7d49927f14c9fad634c4bc97f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc18d93362a438205daf9bba1e6b7269') in 0.012364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLY Japan/Prefabs/Road Assets/SM_street_detail (1).prefab
+  artifactKey: Guid(8025f486d54b2b64199fc6103e6709ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Road Assets/SM_street_detail (1).prefab using Guid(8025f486d54b2b64199fc6103e6709ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42ab3cd0e434d365c6aa455847f5b9ed') in 0.006862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLY Japan/Prefabs/Buildings/SM_building_tall_03.prefab
+  artifactKey: Guid(d071d144983b4ef449738cf282c0ff71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Buildings/SM_building_tall_03.prefab using Guid(d071d144983b4ef449738cf282c0ff71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf7df4295684fbb7c5122941df93a591') in 0.013356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_wall_01 (1).prefab
+  artifactKey: Guid(cefd1736775015b4da6a5d1c48abec1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_wall_01 (1).prefab using Guid(cefd1736775015b4da6a5d1c48abec1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd55ca7392ff9148259c14fb04c8a472e') in 0.013805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_walls_suburbs_01 (3).prefab
+  artifactKey: Guid(ce645919804555a4b8436b5b1880c661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_walls_suburbs_01 (3).prefab using Guid(ce645919804555a4b8436b5b1880c661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f54595f969f2f975ae4f76b96831876b') in 0.006378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/POLY Japan/Prefabs/Buildings/SM_building_tall_04.prefab
+  artifactKey: Guid(a08c33f79137c29448fde10224aec8a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Buildings/SM_building_tall_04.prefab using Guid(a08c33f79137c29448fde10224aec8a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eceb75d5b2eaa91a625998706e237f15') in 0.007387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLY Japan/Prefabs/Buildings/SM_building_tall_05.prefab
+  artifactKey: Guid(79b6ce98b940b5a4195970ab85510c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Buildings/SM_building_tall_05.prefab using Guid(79b6ce98b940b5a4195970ab85510c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eda7f81e427c2eeb31d2d13576e5e6a6') in 0.007545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_signs_restaurant_BaseMap.png
+  artifactKey: Guid(ea4fc16d0260f644da934baf30c23655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_signs_restaurant_BaseMap.png using Guid(ea4fc16d0260f644da934baf30c23655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c4ea2f9446b62fe65aa22c3b2d0b877') in 0.008747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_streetdetail_30zone.png
+  artifactKey: Guid(599f22508e687f34b94bc91ad52d39c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_streetdetail_30zone.png using Guid(599f22508e687f34b94bc91ad52d39c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7163b0ad654a859b4af0845062e20716') in 0.014138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_electricity_pole_03.prefab
+  artifactKey: Guid(95abde06f2e36044895ad202a55a6f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_electricity_pole_03.prefab using Guid(95abde06f2e36044895ad202a55a6f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1bcec483d116a5711b42aba8e1c28bd') in 0.011059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_wall_corner.prefab
+  artifactKey: Guid(7aece5a23deeb5e42901034010c8fcbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_wall_corner.prefab using Guid(7aece5a23deeb5e42901034010c8fcbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7d9a537e64d4fc9822c0d8b366d08bb') in 0.007418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Prefabs/Cars/SM_car_03.prefab
+  artifactKey: Guid(a1bab6ee21c3b9a418f4a70eff45cf7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Cars/SM_car_03.prefab using Guid(a1bab6ee21c3b9a418f4a70eff45cf7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2855ebd58c733b2080a688b769ca76d4') in 0.011369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_recylcling_bin.prefab
+  artifactKey: Guid(af4e29bff7edd104cb5473b98a521329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_recylcling_bin.prefab using Guid(af4e29bff7edd104cb5473b98a521329) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8ea75dc1760e118242cd564403bc57d') in 0.007113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Prefabs/Nature/SM_tree_03 (1).prefab
+  artifactKey: Guid(3412d20b05e47c045a8bf72e6a79936b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Nature/SM_tree_03 (1).prefab using Guid(3412d20b05e47c045a8bf72e6a79936b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5a44eac0277ead2df2de68a37897c27') in 0.007041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Prefabs/Cars/SM_car_02 (2).prefab
+  artifactKey: Guid(a1061820852b93f4f9d35e25ba8b7158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Cars/SM_car_02 (2).prefab using Guid(a1061820852b93f4f9d35e25ba8b7158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0448efc327430a421dffb526236472a8') in 0.008724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_door_fence.prefab
+  artifactKey: Guid(380ad68bb1bdfd44b84bc77124469235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_door_fence.prefab using Guid(380ad68bb1bdfd44b84bc77124469235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e6b24036adecc7c01ecf09ed9f3db6d') in 0.008032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/POLY Japan/Prefabs/Nature/SM_bush_01.prefab
+  artifactKey: Guid(679dfcce1311ba74b8ed34e51f7352b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Nature/SM_bush_01.prefab using Guid(679dfcce1311ba74b8ed34e51f7352b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bbb406399e987b6ae8002fe8f73fc44') in 0.004703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/POLY Japan/Materials/Textures/M_signs_led_MaskMap.png
+  artifactKey: Guid(22d78aa43732dbb43a64b6cccf81ee41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Materials/Textures/M_signs_led_MaskMap.png using Guid(22d78aa43732dbb43a64b6cccf81ee41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5c0341664343bc51afa094c307798e8') in 0.013730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_screen_04.prefab
+  artifactKey: Guid(4b686578b9680a0428354d2ff0413911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_screen_04.prefab using Guid(4b686578b9680a0428354d2ff0413911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97e81b7556b2589d7fd4b6fb569d8ec3') in 0.008262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLY Japan/Prefabs/Buildings/SM_shop_03 (1).prefab
+  artifactKey: Guid(7a36967c681b41c478f53abc470ec06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Buildings/SM_shop_03 (1).prefab using Guid(7a36967c681b41c478f53abc470ec06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b2620dc9663d9b277284289bd93f63c') in 0.008771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/POLY Japan/Prefabs/Cars/SM_car_02 (1).prefab
+  artifactKey: Guid(8dc1adb4738a56d4b98c1e8bc76fc89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Cars/SM_car_02 (1).prefab using Guid(8dc1adb4738a56d4b98c1e8bc76fc89d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8188fcb1393e75a269a07d802ac53f50') in 0.010371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_fence_01.prefab
+  artifactKey: Guid(6a896bbd81305db4ba92a3759db6e8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_fence_01.prefab using Guid(6a896bbd81305db4ba92a3759db6e8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '080c72777145522888d64be05146093a') in 0.005973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/POLY Japan/Prefabs/Buildings/SM_skytree.prefab
+  artifactKey: Guid(b80cb73ac0fe5804fa59a636a993c11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Buildings/SM_skytree.prefab using Guid(b80cb73ac0fe5804fa59a636a993c11d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36cc4d708b357d6332cff06976755c51') in 0.009521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_plant_02.prefab
+  artifactKey: Guid(61f7649bde6b44648bf7c165f96491ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_plant_02.prefab using Guid(61f7649bde6b44648bf7c165f96491ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfbcb5ef006225ee7f3ff31488fe0931') in 0.005630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_wall_corner (3).prefab
+  artifactKey: Guid(ad9ac651ea8975c45a2660ddfad0b14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_wall_corner (3).prefab using Guid(ad9ac651ea8975c45a2660ddfad0b14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c554a313c35abbb16d8f2e2bfba92bdc') in 0.006935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/POLY Japan/Prefabs/Props/SM_deliverybox (1).prefab
+  artifactKey: Guid(7adf64bd1434c4e4bb69b802977c7bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Props/SM_deliverybox (1).prefab using Guid(7adf64bd1434c4e4bb69b802977c7bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '414d94359462073db0752a4f07987d87') in 0.005711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.230229 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_neon_05 (1).prefab
+  artifactKey: Guid(3d588e82f6ddc894b86adc30fceab0bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_neon_05 (1).prefab using Guid(3d588e82f6ddc894b86adc30fceab0bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62b2475cc2ab427c0fa666de2777f7a9') in 0.010974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Materials/Xióng.mat
+  artifactKey: Guid(a526cbbf7bd5d1e43abbd49bc4fa70cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Materials/Xióng.mat using Guid(a526cbbf7bd5d1e43abbd49bc4fa70cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c2f8e0ff0489cc57e35dade22267248') in 0.010525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLY Japan/Prefabs/Traffic Signs/SM_sign_firehydrant.prefab
+  artifactKey: Guid(b07292349ebcd944da2a74c819eb433c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Traffic Signs/SM_sign_firehydrant.prefab using Guid(b07292349ebcd944da2a74c819eb433c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a5f141b1f74fad68fe9ccce71bb4920') in 0.008748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/BluntImpact-MetalClank-Dropping-Free-1.ogg
+  artifactKey: Guid(60f96e26f2fa7a84ea0db024fce526a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/BluntImpact-MetalClank-Dropping-Free-1.ogg using Guid(60f96e26f2fa7a84ea0db024fce526a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0171c626fd19acba7b54781107fa528') in 0.021493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Prefabs/Xiong.prefab
+  artifactKey: Guid(d3c5ddbf23380ff42a05bdab9cb03922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Prefabs/Xiong.prefab using Guid(d3c5ddbf23380ff42a05bdab9cb03922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a1aab1b3c21aba1d9283fe9a0332012') in 0.010175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Characters/Soft Ninja/Textures/Katana2/katana2.png
+  artifactKey: Guid(5c64eea1edff14f4fbfe15380dca30ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Soft Ninja/Textures/Katana2/katana2.png using Guid(5c64eea1edff14f4fbfe15380dca30ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ba8186ba4ffde10768706833eb1ade7') in 0.011273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51981b51d8aef0d5d70f1a7f55aeae52') in 0.019727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_wall_01.prefab
+  artifactKey: Guid(9e68b1fe6d90327439342138d37617ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_wall_01.prefab using Guid(9e68b1fe6d90327439342138d37617ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44d5e16434768f3f02e31c32f2234f56') in 0.010495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/BluntImpact-MetalClank4-Free-1.ogg
+  artifactKey: Guid(32b2a2d4cc24b644aa82dd931fddb620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/BluntImpact-MetalClank4-Free-1.ogg using Guid(32b2a2d4cc24b644aa82dd931fddb620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f36ac770790ad257997afd3127e7fd9') in 0.020535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Weapons/Shurikens pack/Textures/Shuriken6_d.png
+  artifactKey: Guid(b298a3c6f48d4464aba1a65a3666dbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Textures/Shuriken6_d.png using Guid(b298a3c6f48d4464aba1a65a3666dbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55a2c4857fa534eab9d810f1b26093a7') in 0.009812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'feb00bd06134477fcbde36c09f952240') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/Slice-MetalClank2-Free-1.ogg
+  artifactKey: Guid(80151380c0f818243b66a78ef69c9fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/Slice-MetalClank2-Free-1.ogg using Guid(80151380c0f818243b66a78ef69c9fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3d71ee324d900532d1c6c453fb7819d') in 0.022438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Characters/Soft Ninja/Textures/Ninja/wood.png
+  artifactKey: Guid(eafc44e9289d08946982a7a793a29750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Soft Ninja/Textures/Ninja/wood.png using Guid(eafc44e9289d08946982a7a793a29750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a06a872e7c7767e6da4249225a46d9a') in 0.010883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/blue.mat
+  artifactKey: Guid(148fe76e46c225f419f6f7fb26375412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/blue.mat using Guid(148fe76e46c225f419f6f7fb26375412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ce96a2ce270c9b87885311caf5432df') in 0.004147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Animations/ExplosiveLLC/SuperCharacterController/Materials/GreenWall.mat
+  artifactKey: Guid(8b951fc921bcb3341bdbb810abc1bd2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/SuperCharacterController/Materials/GreenWall.mat using Guid(8b951fc921bcb3341bdbb810abc1bd2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c3e3f48c0fc77d4649fe2e89e70208a') in 0.004687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c1bf5f70d08dae40ae206e1d1187965') in 0.027509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/Shurikens pack/Textures/Shuriken8_d.png
+  artifactKey: Guid(3364e1ba272756f47a09c113f4b4e671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Textures/Shuriken8_d.png using Guid(3364e1ba272756f47a09c113f4b4e671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80ae426c06f03c5fd07f40e92bdaa5ad') in 0.009950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Materials/Dashi.mat
+  artifactKey: Guid(667f286998a26da4c90e599743bf8400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Materials/Dashi.mat using Guid(667f286998a26da4c90e599743bf8400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd82e962e14267b83abe90dcd61ca3412') in 0.006508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/BladeHack4-Free-1.ogg
+  artifactKey: Guid(d64e91cef03af304fa237225b23c5707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/BladeHack4-Free-1.ogg using Guid(d64e91cef03af304fa237225b23c5707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42541141c8a156a2cf02932f330f3850') in 0.015760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_shop_08 (1).prefab
+  artifactKey: Guid(f29ede70536c4d5439454b6a299f3724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_shop_08 (1).prefab using Guid(f29ede70536c4d5439454b6a299f3724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44c38bb4636fa56877b046af0328b349') in 0.011315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/Documentation-Free.txt
+  artifactKey: Guid(924b9db3c98954f42aa9d3ec0782294f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/Documentation-Free.txt using Guid(924b9db3c98954f42aa9d3ec0782294f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d5fb6aab2514826a49688540b23a32d') in 0.003093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior FREE/Code/WarriorTiming.cs
+  artifactKey: Guid(6db7a9ea399134d43b0779fc9e2bccf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior FREE/Code/WarriorTiming.cs using Guid(6db7a9ea399134d43b0779fc9e2bccf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f85808269adfeec438273c8ea02c864') in 0.004037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/Shurikens pack/Textures/Shuriken4_d.png
+  artifactKey: Guid(2d22f70d1c2c13f42af770225f7795d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Textures/Shuriken4_d.png using Guid(2d22f70d1c2c13f42af770225f7795d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f08d3c3ba70840c00b0c4c7053eaeb8d') in 0.012257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/Shurikens pack/Materials/Shuriken5.mat
+  artifactKey: Guid(0033d8f1449e00441b6070f07f925599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Materials/Shuriken5.mat using Guid(0033d8f1449e00441b6070f07f925599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1700e606e5b0f48c08b7054883cb5d5f') in 0.008455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Animations/ExplosiveLLC/Demo Elements/Prefabs/Camera.prefab
+  artifactKey: Guid(16dc4b51d7b30f74a9fd33417596daa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Demo Elements/Prefabs/Camera.prefab using Guid(16dc4b51d7b30f74a9fd33417596daa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09884aec6ba4c54c96c0a5239ca9ce02') in 0.020668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Characters/Soft Ninja/Textures/Ninja/face.png
+  artifactKey: Guid(aa7a4953241c4fc478f6c0510350a226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Soft Ninja/Textures/Ninja/face.png using Guid(aa7a4953241c4fc478f6c0510350a226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ab390a91a9389c94f53f29d634448d8') in 0.010631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/Kicked2-Free-1.ogg
+  artifactKey: Guid(0e289649262c65c42a4c04f1a9cec8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sounds/IdiaSoftware/Blades&Bludgeonings-Free/Kicked2-Free-1.ogg using Guid(0e289649262c65c42a4c04f1a9cec8b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cff6a82b770a240fd20904f8b8d9167b') in 0.019281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animations/ExplosiveLLC/SuperCharacterController/Mesh/Platform.FBX
+  artifactKey: Guid(c79ba535414d5e34fa35eb83f2703109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/SuperCharacterController/Mesh/Platform.FBX using Guid(c79ba535414d5e34fa35eb83f2703109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '423fb5aba58e29d7499b68d3c096b2fb') in 0.010561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Animations/ExplosiveLLC/Demo Elements/Materials/Stage/Tree.mat
+  artifactKey: Guid(da8188cae1fe5af42950bfdf27e02892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Demo Elements/Materials/Stage/Tree.mat using Guid(da8188cae1fe5af42950bfdf27e02892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2d2aba9f859812aaa10775b051c0a63') in 0.011677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/Shurikens pack/Models/Shuriken5.FBX
+  artifactKey: Guid(35b4f398010d84e4497666c0fad6df2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Models/Shuriken5.FBX using Guid(35b4f398010d84e4497666c0fad6df2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c678677ad0265677337486f713a5eed7') in 0.010448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/Shurikens pack/Textures/Shuriken5_n.png
+  artifactKey: Guid(0ad7dbbfef1cec7498eafd029147000f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Textures/Shuriken5_n.png using Guid(0ad7dbbfef1cec7498eafd029147000f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '190c0f4ebfe0031146db097a90a429be') in 0.010243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/green.mat
+  artifactKey: Guid(451d8bada2daf324d92d0aaf366d55ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/green.mat using Guid(451d8bada2daf324d92d0aaf366d55ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ceabb54369975784fd01a45f2902953') in 0.004119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_shop_07 (1).prefab
+  artifactKey: Guid(00449a31cd6d73f4898fa2a9303d62e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/POLY Japan/Prefabs/Shop Signs/SM_sign_shop_07 (1).prefab using Guid(00449a31cd6d73f4898fa2a9303d62e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b389727d6aa81a2be7a1cadf9999e64') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Weapons/Shurikens pack/Models/Shuriken4.FBX
+  artifactKey: Guid(f7be6201946cacf4c9368c1c2c4508c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Models/Shuriken4.FBX using Guid(f7be6201946cacf4c9368c1c2c4508c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fa91ea5dd31eb712dc7ba5f10cf03b0') in 0.013118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Weapons/Shurikens pack/Prefabs/Shuriken8.prefab
+  artifactKey: Guid(79d1b50df808eec47bc58631189052ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Prefabs/Shuriken8.prefab using Guid(79d1b50df808eec47bc58631189052ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc7ee321669c9c67c76dbc79e38b0b18') in 0.008071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Weapons/Shurikens pack/Materials/Shuriken6.mat
+  artifactKey: Guid(a75543269fcb3174287a9d821d67ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Materials/Shuriken6.mat using Guid(a75543269fcb3174287a9d821d67ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26b91bbf4e8ce84c2a483eaa75f50486') in 0.009581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Weapons/Shurikens pack/Textures/Shuriken3_n.png
+  artifactKey: Guid(fba89ceec17f0b9488134b88cc36c6a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Textures/Shuriken3_n.png using Guid(fba89ceec17f0b9488134b88cc36c6a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5fa473eab0fd1e776d343fdad0c4f92') in 0.011548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024127 seconds.
+  path: Assets/Animations/ExplosiveLLC/Demo Elements/Prefabs/Stage/Cube.prefab
+  artifactKey: Guid(887086c06bd9ec249860a160229755ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Demo Elements/Prefabs/Stage/Cube.prefab using Guid(887086c06bd9ec249860a160229755ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd13311ea096cd59736033d26c7b23436') in 0.009562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Prefabs/Brute Warrior.prefab
+  artifactKey: Guid(38300d189f3d2d345a7da78a139754c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Prefabs/Brute Warrior.prefab using Guid(38300d189f3d2d345a7da78a139754c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '916271bf0365726fc5f23bde40b47fc2') in 0.021345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 123
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Textures/Jiàntóu/Jiàntóu_Hat_Normal.tga
+  artifactKey: Guid(39919949883cbcc48b8b6cf98f56c632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Textures/Jiàntóu/Jiàntóu_Hat_Normal.tga using Guid(39919949883cbcc48b8b6cf98f56c632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d4bd133a2fbe496d6bd5e4ed5f27e59') in 0.009172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/PillarPrototype01x02x01.fbx
+  artifactKey: Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/PillarPrototype01x02x01.fbx using Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af579bdc18d18b53ddba24a20c4db9c0') in 0.011566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Scenes/Karate Warrior.unity
+  artifactKey: Guid(bb1f3357a98dea045990887cdabebbe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Scenes/Karate Warrior.unity using Guid(bb1f3357a98dea045990887cdabebbe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '118b1f67254c65336e3ca3400f404d7b') in 0.002591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Walk.FBX
+  artifactKey: Guid(d6aedafb511eec749b8c351a33a4540c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Walk.FBX using Guid(d6aedafb511eec749b8c351a33a4540c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbb2aa45fa85991c42d69a81fa84ef18') in 0.024979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Characters/Brute.FBX
+  artifactKey: Guid(e9332b82da4812a49916bf8fc87b2332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Characters/Brute.FBX using Guid(e9332b82da4812a49916bf8fc87b2332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd276b0dba427a36c1817cbc69fd968ac') in 0.016888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Prefabs/Ninja Warrior.prefab
+  artifactKey: Guid(c4a69e964de31604a9267bcc59bbbc1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Prefabs/Ninja Warrior.prefab using Guid(c4a69e964de31604a9267bcc59bbbc1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29de25723ff14985a1f3714f788bbeca') in 0.012031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/FloorPrototype04x01x04.fbx
+  artifactKey: Guid(080bc076ed19adb4091adca05de83d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/FloorPrototype04x01x04.fbx using Guid(080bc076ed19adb4091adca05de83d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b5b04cdd8359025b0981ecc61b17d6a') in 0.016170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Textures/SwatchNavyDarkAlbedo.png
+  artifactKey: Guid(a336ccf90791f9841b7e680c010d1e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Textures/SwatchNavyDarkAlbedo.png using Guid(a336ccf90791f9841b7e680c010d1e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96fbabd44485d94399542f3604f47813') in 0.011754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Jump.FBX
+  artifactKey: Guid(2c09e782d3065fc44ae6b4e075d30648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Jump.FBX using Guid(2c09e782d3065fc44ae6b4e075d30648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e3c8f05b11df57416568d1cdbed2d79') in 0.013412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab
+  artifactKey: Guid(7f114e6b62ad5134b9ba4e0a01ddc050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Prefabs/PlatformPrototype08x01x08.prefab using Guid(7f114e6b62ad5134b9ba4e0a01ddc050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22124d3485d45007e991793b1683b18d') in 0.012095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs
+  artifactKey: Guid(863732f8a6e9a6a498c793425ea50038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperStateMachine.cs using Guid(863732f8a6e9a6a498c793425ea50038) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0184347da898889eed049ba6d7f1b11d') in 0.003349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Jump.FBX
+  artifactKey: Guid(7877e95e4eb64c74f9f1fdb7e33f7a42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Jump.FBX using Guid(7877e95e4eb64c74f9f1fdb7e33f7a42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e5ae8cd3af44ff2c28aca66da3ef0ea') in 0.020662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Textures/Cì/Ci_Ci_AlbedoTransparency.tga
+  artifactKey: Guid(53fec9a25c874de44b734bdc56816def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Textures/Cì/Ci_Ci_AlbedoTransparency.tga using Guid(53fec9a25c874de44b734bdc56816def) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98903f2a3af873e870fb95e262eca677') in 0.009081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Jump.FBX
+  artifactKey: Guid(7d6361bc6c3a91a47a6ae4ffef381b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Jump.FBX using Guid(7d6361bc6c3a91a47a6ae4ffef381b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '692dd8b7817b01b312c279b76522ace4') in 0.018429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Textures/Jiàntóu/Jiàntóu_ShaolinMonk_AO.tga
+  artifactKey: Guid(3998ec217c2fbdb4aa6f90a2295495ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Textures/Jiàntóu/Jiàntóu_ShaolinMonk_AO.tga using Guid(3998ec217c2fbdb4aa6f90a2295495ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e904174e5ca5830dcd493edc9b913f30') in 0.016026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/ExplosiveLLC/Demo Elements/Textures/Stage/Stage.psd
+  artifactKey: Guid(c4bf6c3ea91797f4e9ba58cb9c6fbb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Demo Elements/Textures/Stage/Stage.psd using Guid(c4bf6c3ea91797f4e9ba58cb9c6fbb47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e782fd7131bedabcbed4ba8db3b13cb2') in 0.015899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/PickupPrototype01x01x01.fbx
+  artifactKey: Guid(00718395eefb6084bb25555f962f25c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/PickupPrototype01x01x01.fbx using Guid(00718395eefb6084bb25555f962f25c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b91cb69efd881e30e83ddaeb987b050') in 0.015024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/StepsPrototype04x02x02.fbx
+  artifactKey: Guid(900e53dd850c9cc4281be6fa21bdfea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/StepsPrototype04x02x02.fbx using Guid(900e53dd850c9cc4281be6fa21bdfea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00379db6bd169ba39e247360c0603226') in 0.015685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCollisionType.cs
+  artifactKey: Guid(68c1a1d27540a1248b096f8960864448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/SuperCharacterController/SuperCharacterController/Core/SuperCollisionType.cs using Guid(68c1a1d27540a1248b096f8960864448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e3c333c1a85b0bfb9844e82b6b9e225') in 0.003082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/CubePrototype02x02x02.fbx
+  artifactKey: Guid(df4796b594b970842b69211cb0078c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Weapons/Shurikens pack/Demo Scene/Prototyping/Models/CubePrototype02x02x02.fbx using Guid(df4796b594b970842b69211cb0078c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3923daa9e71ded6e8ef3c4010a6ff9c0') in 0.017914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Materials/Sorceress.mat
+  artifactKey: Guid(b214cd353f2ca524fbffd040bb0465f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Materials/Sorceress.mat using Guid(b214cd353f2ca524fbffd040bb0465f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '342334260db1ed70eaadfbb43b8a788b') in 0.008156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/Kung Fu Pack/Assets/Textures/Jiàntóu/Jiàntóu_ShaolinMonk_Normal.tga
+  artifactKey: Guid(ad5b1d134ee88904fa0517b713c6e875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Characters/Kung Fu Pack/Assets/Textures/Jiàntóu/Jiàntóu_ShaolinMonk_Normal.tga using Guid(ad5b1d134ee88904fa0517b713c6e875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd093d4f983e55fb3130597a44241e3c') in 0.010974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Characters/Karate.FBX
+  artifactKey: Guid(8645e0506d8d64d44bda3003df478c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Characters/Karate.FBX using Guid(8645e0506d8d64d44bda3003df478c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '297dd578e784df87ec67e23e1b70cb7c') in 0.016911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
